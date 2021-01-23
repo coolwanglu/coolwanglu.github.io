@@ -12,13 +12,27 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js"></script>
     -->
     <style type="text/css">
-        img {
-            width:16px;
-            height:16px;
-            margin-right:5px;
+        p img {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
         }
         a {
             font-family: 'Ubunto Mono', sans-serif;
+        }
+        img.main_img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 50%;
+        }
+        @media (min-width: 800px) {
+          #title {
+            margin-bottom: 64px !important;
+          }
+          img.main_img {
+              float: right;
+              max-width: 50%;
+          }
         }
     </style>
     <script type="text/javascript">
@@ -36,18 +50,19 @@
     <div class="wrapper">
       <section>
         <div id="title">
-          <h1>Lu Wang's Page</h1>
+          <h1>Lu Wang</h1>
         </div>
 
-        <p>This page belongs to <a href="https://coolwanglu.github.io">this guy</a>.</p>
-        <p><a href="http://github.com/coolwanglu/" target="_blank"><img src="/images/github.png">He codes.</a></p>
-        <p><a href="http://coolwanglu.deviantart.com/" target="_blank"><img src="http://i.deviantart.net/icons/favicon.png">He draws.</a></p>
-        <!--
-        <p><a href="http://code.google.com/p/scanmem/" target="_blank"><img src="http://www.gstatic.com/codesite/ph/images/phosting.ico">He hacks.</a></p>
-        -->
-        <p><a href="http://coolwanglu.blogspot.com/" target="_blank"><img src="http://www.blogger.com/favicon.ico">He notes.</a></p>
-        <p><a href="https://twitter.com/coolwanglu" target="_blank"><img src="https://twitter.com/favicon.ico">He talks.</a></p>
-        <p>His name is written as 王璐 in Chinese.</p>
+        <a href="https://www.instagram.com/p/CKQ_YMOlSxq/" target="_blank">
+          <img class="main_img" src="https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/140612265_184925040035731_1696149265316143286_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=dKo-m0ysY_gAX9b8RNj&tp=1&oh=4db16cafbb656857ef6c37ea2da3365f&oe=6034ABC2">
+        </a>
+        <p>This page belongs to <a href="https://coolwanglu.github.io">this person</a>.</p>
+        <p><a href="https://twitter.com/coolwanglu" target="_blank"><img src="https://twitter.com/favicon.ico">Twitter</a></p>
+        <p><a href="https://www.instagram.com/w.a.n.g.l.u/" target="_blank"><img src="https://www.instagram.com/favicon.ico">Instagram</a></p>
+        <p><a href="https://www.youtube.com/channel/UCVjIcqeFyyCOdvx8EnQvvZg" target="_blank"><img src="https://www.youtube.com/favicon.ico">YouTube</a></p>
+        <p><a href="https://github.com/coolwanglu/" target="_blank"><img src="/images/github.png">GitHub</a></p>
+        <p><a href="https://coolwanglu.blogspot.com/" target="_blank"><img src="http://www.blogger.com/favicon.ico">Blogger</a></p>
+        <p><a href="https://www.deviantart.com/wang-lu" target="_blank"><img src="http://i.deviantart.net/icons/favicon.png">DeviantArt</a></p>
       </section>
     </div>
   </body>
